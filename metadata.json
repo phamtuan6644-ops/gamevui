@@ -1,0 +1,6 @@
+{
+  "name": "Bé Vui Học - Game Giáo Dục Mầm Non 3-6 Tuổi",
+  "description": "Ứng dụng web game giáo dục tương tác vui nhộn cho trẻ em Việt Nam từ 3-6 tuổi học 29 chữ cái, số học và tư duy cùng thỏ Bunny.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bunnyGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="85%" stop-color="#FFF1F2" />
+      <stop offset="100%" stop-color="#FDE2E4" />
+    </radialGradient>
+    <radialGradient id="earPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#FB7185" />
+    </radialGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="bunnyGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0284c7" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <g filter="url(#bunnyGlow)">
+    <!-- Bunny Ears -->
+    <!-- Left Ear -->
+    <g transform="translate(65, 30) rotate(-14)">
+      <ellipse cx="20" cy="55" rx="19" ry="52" fill="url(#bunnyGrad)" stroke="#FDA4AF" stroke-width="3.5" />
+      <ellipse cx="20" cy="58" rx="10" ry="36" fill="url(#earPink)" opacity="0.85" />
+    </g>
+    <!-- Right Ear -->
+    <g transform="translate(135, 30) rotate(14)">
+      <ellipse cx="20" cy="55" rx="19" ry="52" fill="url(#bunnyGrad)" stroke="#FDA4AF" stroke-width="3.5" />
+      <ellipse cx="20" cy="58" rx="10" ry="36" fill="url(#earPink)" opacity="0.85" />
+    </g>
+
+    <!-- Cute Body / Dungarees -->
+    <path d="M 75 180 Q 120 165 165 180 L 175 240 Q 120 260 65 240 Z" fill="url(#bodyGrad)" stroke="#0891B2" stroke-width="3" />
+    
+    <!-- Dungaree Straps -->
+    <path d="M 85 178 L 92 215" stroke="#0E7490" stroke-width="7" stroke-linecap="round" />
+    <path d="M 155 178 L 148 215" stroke="#0E7490" stroke-width="7" stroke-linecap="round" />
+    <!-- Yellow Buttons -->
+    <circle cx="92" cy="215" r="4.5" fill="#FBBF24" stroke="#D97706" stroke-width="1.5" />
+    <circle cx="148" cy="215" r="4.5" fill="#FBBF24" stroke="#D97706" stroke-width="1.5" />
+    <!-- Pocket with little carrot -->
+    <rect x="105" y="210" width="30" height="26" rx="6" fill="#22D3EE" stroke="#0891B2" stroke-width="2" />
+    <text x="110" y="230" font-size="16">🥕</text>
+
+    <!-- Feet -->
+    <ellipse cx="85" cy="254" rx="22" ry="14" fill="#FFFFFF" stroke="#FDA4AF" stroke-width="3" />
+    <ellipse cx="155" cy="254" rx="22" ry="14" fill="#FFFFFF" stroke="#FDA4AF" stroke-width="3" />
+
+    <!-- Big Soft Round Head -->
+    <circle cx="120" cy="140" r="62" fill="url(#bunnyGrad)" stroke="#FB7185" stroke-width="3.5" />
+
+    <!-- Rosy Cheeks -->
+    <ellipse cx="78" cy="154" rx="12" ry="8" fill="#F43F5E" opacity="0.45" />
+    <ellipse cx="162" cy="154" rx="12" ry="8" fill="#F43F5E" opacity="0.45" />
+
+    <!-- Sparkly Cute Eyes -->
+    <ellipse cx="96" cy="132" rx="9" ry="11" fill="#1E293B" />
+    <circle cx="93" cy="128" r="4" fill="#FFFFFF" />
+    <circle cx="98" cy="136" r="1.8" fill="#FFFFFF" />
+
+    <ellipse cx="144" cy="132" rx="9" ry="11" fill="#1E293B" />
+    <circle cx="141" cy="128" r="4" fill="#FFFFFF" />
+    <circle cx="146" cy="136" r="1.8" fill="#FFFFFF" />
+
+    <!-- Cute Eyebrows -->
+    <path d="M 88 116 Q 96 112 104 116" stroke="#94A3B8" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 136 116 Q 144 112 152 116" stroke="#94A3B8" stroke-width="2.5" fill="none" stroke-linecap="round" />
+
+    <!-- Nose & Mouth -->
+    <polygon points="120,147 114,141 126,141" fill="#F43F5E" />
+    <path d="M 120 147 L 120 152" stroke="#1E293B" stroke-width="2.5" />
+    <path d="M 112 152 Q 120 160 128 152" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <path d="M 116 156 Q 120 162 124 156" fill="#F43F5E" />
+
+    <!-- Whiskers -->
+    <path d="M 62 142 L 42 138" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <path d="M 62 148 L 40 150" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <path d="M 178 142 L 198 138" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+    <path d="M 178 148 L 200 150" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Hands waving -->
+    <circle cx="62" cy="192" r="14" fill="#FFFFFF" stroke="#FDA4AF" stroke-width="3" />
+    <!-- Right waving hand -->
+    <g transform="translate(178, 175) rotate(-20)">
+      <ellipse cx="12" cy="10" rx="14" ry="12" fill="#FFFFFF" stroke="#FDA4AF" stroke-width="3" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,711 @@
+{
+  "appInfo": {
+    "title": "BÉ VUI HỌC",
+    "slogan": "Khám phá mỗi ngày – Giỏi hơn mỗi ngày!",
+    "targetAudience": "Trẻ em Việt Nam 3–6 tuổi",
+    "version": "1.0.0",
+    "mascotName": "BUNNY",
+    "logoImage": "./assets/logo_be_vui_hoc.svg"
+  },
+  "bunnyDialogues": {
+    "welcome": "Xin chào bạn nhỏ! Hôm nay chúng mình cùng khám phá thế giới nhé!",
+    "letterKingdom": "Chào mừng bạn đến Vương quốc chữ cái kỳ diệu! Cùng đọc và chơi game nào!",
+    "numberIsland": "Đảo số học chào đón bạn! Cùng Bunny đếm các bạn thú và trái cây nhé!",
+    "discoveryForest": "Khu rừng khám phá với muôn vàn loài vật và thiên nhiên tươi đẹp!",
+    "shapeCity": "Thành phố hình khối đầy màu sắc đang chờ bé ghé thăm!",
+    "brainChallenge": "Thử thách trí thông minh – Bé hãy vận dụng trí nhớ siêu đỉnh nhé!",
+    "parentZone": "Khu vực dành cho ba mẹ theo dõi sự tiến bộ và thiết lập thời gian học.",
+    "correctReplies": [
+      "Hoan hô! Bé trả lời đúng rồi!",
+      "Tuyệt vời quá! Bé nhận được 1 sao nè!",
+      "Bé thông minh quá đi!",
+      "Chuẩn xác rồi! Tiếp tục phát huy nhé!"
+    ],
+    "encouragements": [
+      "Không sao đâu bạn nhỏ ơi, chúng mình thử lại nhé!",
+      "Cố lên nào, Bunny luôn tin ở bé!",
+      "Gần đúng rồi đấy, bé nhìn kỹ lại một chút nhé!"
+    ],
+    "completedLesson": "Chúc mừng bé đã hoàn thành bài học xuất sắc! Nhận quà cùng Bunny nào!"
+  },
+  "letters": [
+    {
+      "id": "a",
+      "uppercase": "A",
+      "lowercase": "a",
+      "name": "Chữ A",
+      "phonetic": "a",
+      "word": "Quả táo",
+      "emoji": "🍎",
+      "image": "./assets/letters/letter_a.webp",
+      "category": "Trái cây",
+      "color": "rose",
+      "hint": "Quả màu đỏ, ăn ngọt ngọt giòn giòn."
+    },
+    {
+      "id": "aw",
+      "uppercase": "Ă",
+      "lowercase": "ă",
+      "name": "Chữ Ă",
+      "phonetic": "á",
+      "word": "Mặt trăng",
+      "emoji": "🌙",
+      "image": "./assets/letters/letter_aw.webp",
+      "category": "Thiên nhiên",
+      "color": "amber",
+      "hint": "Trăng lưỡi liềm sáng lung linh ban đêm."
+    },
+    {
+      "id": "aa",
+      "uppercase": "Â",
+      "lowercase": "â",
+      "name": "Chữ Â",
+      "phonetic": "ớ",
+      "word": "Cây nấm",
+      "emoji": "🍄",
+      "image": "./assets/letters/letter_aa.webp",
+      "category": "Thực vật",
+      "color": "orange",
+      "hint": "Cây nấm xinh xinh mọc dưới gốc cây to."
+    },
+    {
+      "id": "b",
+      "uppercase": "B",
+      "lowercase": "b",
+      "name": "Chữ B",
+      "phonetic": "bê",
+      "word": "Con bướm",
+      "emoji": "🦋",
+      "image": "./assets/letters/letter_b.webp",
+      "category": "Động vật",
+      "color": "sky",
+      "hint": "Cánh bướm sặc sỡ bay lượn bên khóm hoa."
+    },
+    {
+      "id": "c",
+      "uppercase": "C",
+      "lowercase": "c",
+      "name": "Chữ C",
+      "phonetic": "xê",
+      "word": "Quả cam",
+      "emoji": "🍊",
+      "image": "./assets/letters/letter_c.webp",
+      "category": "Trái cây",
+      "color": "amber",
+      "hint": "Quả cam tròn mọng, chứa nhiều vitamin C."
+    },
+    {
+      "id": "d",
+      "uppercase": "D",
+      "lowercase": "d",
+      "name": "Chữ D",
+      "phonetic": "dê",
+      "word": "Con dê",
+      "emoji": "🐐",
+      "image": "./assets/letters/letter_d.webp",
+      "category": "Động vật",
+      "color": "emerald",
+      "hint": "Chú dê có đôi sừng nhỏ kêu be be."
+    },
+    {
+      "id": "dd",
+      "uppercase": "Đ",
+      "lowercase": "đ",
+      "name": "Chữ Đ",
+      "phonetic": "đê",
+      "word": "Đồng hồ",
+      "emoji": "⏰",
+      "image": "./assets/letters/letter_dd.webp",
+      "category": "Đồ vật",
+      "color": "indigo",
+      "hint": "Đồng hồ báo thức tích tắc gọi bé dậy."
+    },
+    {
+      "id": "e",
+      "uppercase": "E",
+      "lowercase": "e",
+      "name": "Chữ E",
+      "phonetic": "e",
+      "word": "Em bé",
+      "emoji": "👶",
+      "image": "./assets/letters/letter_e.webp",
+      "category": "Con người",
+      "color": "pink",
+      "hint": "Em bé cười toe toét thật đáng yêu."
+    },
+    {
+      "id": "ee",
+      "uppercase": "Ê",
+      "lowercase": "ê",
+      "name": "Chữ Ê",
+      "phonetic": "ê",
+      "word": "Con ếch",
+      "emoji": "🐸",
+      "image": "./assets/letters/letter_ee.webp",
+      "category": "Động vật",
+      "color": "green",
+      "hint": "Chú ếch xanh ngồi trên lá sen kêu ộp ộp."
+    },
+    {
+      "id": "g",
+      "uppercase": "G",
+      "lowercase": "g",
+      "name": "Chữ G",
+      "phonetic": "gờ",
+      "word": "Con gà",
+      "emoji": "🐔",
+      "image": "./assets/letters/letter_g.webp",
+      "category": "Động vật",
+      "color": "amber",
+      "hint": "Chú gà trống gáy vang gọi sáng."
+    },
+    {
+      "id": "h",
+      "uppercase": "H",
+      "lowercase": "h",
+      "name": "Chữ H",
+      "phonetic": "hát",
+      "word": "Hoa hồng",
+      "emoji": "🌹",
+      "image": "./assets/letters/letter_h.webp",
+      "category": "Hoa",
+      "color": "rose",
+      "hint": "Bông hoa hồng nhung ngát hương thơm."
+    },
+    {
+      "id": "i",
+      "uppercase": "I",
+      "lowercase": "i",
+      "name": "Chữ I",
+      "phonetic": "i",
+      "word": "Que kem",
+      "emoji": "🍦",
+      "image": "./assets/letters/letter_i.webp",
+      "category": "Món ăn",
+      "color": "teal",
+      "hint": "Que kem mát lạnh vị vani ngon lành."
+    },
+    {
+      "id": "k",
+      "uppercase": "K",
+      "lowercase": "k",
+      "name": "Chữ K",
+      "phonetic": "ca",
+      "word": "Cái kéo",
+      "emoji": "✂️",
+      "image": "./assets/letters/letter_k.webp",
+      "category": "Đồ dùng",
+      "color": "cyan",
+      "hint": "Cái kéo nhỏ giúp bé cắt giấy thủ công."
+    },
+    {
+      "id": "l",
+      "uppercase": "L",
+      "lowercase": "l",
+      "name": "Chữ L",
+      "phonetic": "e-lờ",
+      "word": "Quả lê",
+      "emoji": "🍐",
+      "image": "./assets/letters/letter_l.webp",
+      "category": "Trái cây",
+      "color": "lime",
+      "hint": "Quả lê màu vàng xanh mọng nước ngọt ngào."
+    },
+    {
+      "id": "m",
+      "uppercase": "M",
+      "lowercase": "m",
+      "name": "Chữ M",
+      "phonetic": "em-mờ",
+      "word": "Con mèo",
+      "emoji": "🐱",
+      "image": "./assets/letters/letter_m.webp",
+      "category": "Động vật",
+      "color": "yellow",
+      "hint": "Bé mèo ngoan ngoãn bắt chuột meo meo."
+    },
+    {
+      "id": "n",
+      "uppercase": "N",
+      "lowercase": "n",
+      "name": "Chữ N",
+      "phonetic": "en-nờ",
+      "word": "Ngôi sao",
+      "emoji": "⭐",
+      "image": "./assets/letters/letter_n.webp",
+      "category": "Thiên nhiên",
+      "color": "amber",
+      "hint": "Ngôi sao năm cánh lấp lánh trên trời cao."
+    },
+    {
+      "id": "o",
+      "uppercase": "O",
+      "lowercase": "o",
+      "name": "Chữ O",
+      "phonetic": "o",
+      "word": "Con ong",
+      "emoji": "🐝",
+      "image": "./assets/letters/letter_o.webp",
+      "category": "Động vật",
+      "color": "yellow",
+      "hint": "Chú ong chăm chỉ bay đi tìm mật hoa."
+    },
+    {
+      "id": "oo",
+      "uppercase": "Ô",
+      "lowercase": "ô",
+      "name": "Chữ Ô",
+      "phonetic": "ô",
+      "word": "Cái ô",
+      "emoji": "☂️",
+      "image": "./assets/letters/letter_oo.webp",
+      "category": "Đồ dùng",
+      "color": "blue",
+      "hint": "Cái ô che nắng che mưa cho bé đến trường."
+    },
+    {
+      "id": "ow",
+      "uppercase": "Ơ",
+      "lowercase": "ơ",
+      "name": "Chữ Ơ",
+      "phonetic": "ơ",
+      "word": "Quả ớt",
+      "emoji": "🌶️",
+      "image": "./assets/letters/letter_ow.webp",
+      "category": "Thực vật",
+      "color": "red",
+      "hint": "Quả ớt màu đỏ cay nồng nhỏ bé."
+    },
+    {
+      "id": "p",
+      "uppercase": "P",
+      "lowercase": "p",
+      "name": "Chữ P",
+      "phonetic": "pê",
+      "word": "Pháo hoa",
+      "emoji": "🎆",
+      "image": "./assets/letters/letter_p.webp",
+      "category": "Đồ chơi",
+      "color": "purple",
+      "hint": "Pháo hoa rực rỡ bừng sáng đêm giao thừa."
+    },
+    {
+      "id": "q",
+      "uppercase": "Q",
+      "lowercase": "q",
+      "name": "Chữ Q",
+      "phonetic": "quy",
+      "word": "Quả quýt",
+      "emoji": "🍊",
+      "image": "./assets/letters/letter_q.webp",
+      "category": "Trái cây",
+      "color": "orange",
+      "hint": "Quả quýt tép mọng ngọt mát hương thơm."
+    },
+    {
+      "id": "r",
+      "uppercase": "R",
+      "lowercase": "r",
+      "name": "Chữ R",
+      "phonetic": "e-rờ",
+      "word": "Con rùa",
+      "emoji": "🐢",
+      "image": "./assets/letters/letter_r.webp",
+      "category": "Động vật",
+      "color": "emerald",
+      "hint": "Chú rùa bò chầm chậm mang mai cứng trên lưng."
+    },
+    {
+      "id": "s",
+      "uppercase": "S",
+      "lowercase": "s",
+      "name": "Chữ S",
+      "phonetic": "ét-xì",
+      "word": "Sư tử",
+      "emoji": "🦁",
+      "image": "./assets/letters/letter_s.webp",
+      "category": "Động vật",
+      "color": "amber",
+      "hint": "Chúa sơn lâm có bờm thật uy phong."
+    },
+    {
+      "id": "t",
+      "uppercase": "T",
+      "lowercase": "t",
+      "name": "Chữ T",
+      "phonetic": "tê",
+      "word": "Tàu hỏa",
+      "emoji": "🚂",
+      "image": "./assets/letters/letter_t.webp",
+      "category": "Phương tiện",
+      "color": "red",
+      "hint": "Đoàn tàu hỏa chạy xình xịch trên đường ray."
+    },
+    {
+      "id": "u",
+      "uppercase": "U",
+      "lowercase": "u",
+      "name": "Chữ U",
+      "phonetic": "u",
+      "word": "Cái dù",
+      "emoji": "🪂",
+      "image": "./assets/letters/letter_u.webp",
+      "category": "Đồ dùng",
+      "color": "sky",
+      "hint": "Chiếc dù bay bay lượn trên bầu trời xanh."
+    },
+    {
+      "id": "uw",
+      "uppercase": "Ư",
+      "lowercase": "ư",
+      "name": "Chữ Ư",
+      "phonetic": "ư",
+      "word": "Hươu sao",
+      "emoji": "🦌",
+      "image": "./assets/letters/letter_uw.webp",
+      "category": "Động vật",
+      "color": "amber",
+      "hint": "Bạn hươu sao hiền lành có đốm trắng xinh xắn."
+    },
+    {
+      "id": "v",
+      "uppercase": "V",
+      "lowercase": "v",
+      "name": "Chữ V",
+      "phonetic": "vê",
+      "word": "Con vịt",
+      "emoji": "🦆",
+      "image": "./assets/letters/letter_v.webp",
+      "category": "Động vật",
+      "color": "yellow",
+      "hint": "Chú vịt bơi dưới ao kêu cạp cạp cạp."
+    },
+    {
+      "id": "x",
+      "uppercase": "X",
+      "lowercase": "x",
+      "name": "Chữ X",
+      "phonetic": "ích-xì",
+      "word": "Xe buýt",
+      "emoji": "🚌",
+      "image": "./assets/letters/letter_x.webp",
+      "category": "Phương tiện",
+      "color": "blue",
+      "hint": "Chiếc xe buýt lớn chở các bé đi học."
+    },
+    {
+      "id": "y",
+      "uppercase": "Y",
+      "lowercase": "y",
+      "name": "Chữ Y",
+      "phonetic": "y-dài",
+      "word": "Y tá",
+      "emoji": "👩‍⚕️",
+      "image": "./assets/letters/letter_y.webp",
+      "category": "Nghề nghiệp",
+      "color": "rose",
+      "hint": "Cô y tá hiền dịu chăm sóc sức khỏe cho mọi người."
+    }
+  ],
+  "numbers": [
+    {
+      "value": 0,
+      "vietnamese": "Không",
+      "emoji": "⚪",
+      "item": "Không có gì",
+      "hint": "Một vòng tròn khép kín, biểu thị không có đồ vật nào."
+    },
+    {
+      "value": 1,
+      "vietnamese": "Một",
+      "emoji": "☀️",
+      "item": "Một mặt trời",
+      "hint": "Một que thẳng đứng giống cây nến thắp sáng."
+    },
+    {
+      "value": 2,
+      "vietnamese": "Hai",
+      "emoji": "🦆",
+      "item": "Hai chú vịt con",
+      "hint": "Số hai uốn cong duyên dáng giống chú thiên nga bơi."
+    },
+    {
+      "value": 3,
+      "vietnamese": "Ba",
+      "emoji": "🦋",
+      "item": "Ba cánh bướm",
+      "hint": "Số ba có hai đường cong như đôi cánh chú bướm."
+    },
+    {
+      "value": 4,
+      "vietnamese": "Bốn",
+      "emoji": "🚗",
+      "item": "Bốn chiếc ô tô",
+      "hint": "Số bốn giống cánh buồm đón gió ngoài biển."
+    },
+    {
+      "value": 5,
+      "vietnamese": "Năm",
+      "emoji": "🍎",
+      "item": "Năm quả táo đỏ",
+      "hint": "Năm ngón tay xinh trên bàn tay của bé."
+    },
+    {
+      "value": 6,
+      "vietnamese": "Sáu",
+      "emoji": "🍓",
+      "item": "Sáu quả dâu tây",
+      "hint": "Số sáu có vòng tròn tròn ở dưới đáy."
+    },
+    {
+      "value": 7,
+      "vietnamese": "Bảy",
+      "emoji": "🌈",
+      "item": "Bảy sắc cầu vồng",
+      "hint": "Số bảy giống cây gậy chỉ đường thẳng tắp."
+    },
+    {
+      "value": 8,
+      "vietnamese": "Tám",
+      "emoji": "🐙",
+      "item": "Tám xúc xắc / Chú bạch tuộc",
+      "hint": "Số tám như hai chiếc bánh quy xếp chồng lên nhau."
+    },
+    {
+      "value": 9,
+      "vietnamese": "Chín",
+      "emoji": "🎈",
+      "item": "Chín quả bóng bay",
+      "hint": "Số chín giống quả bóng bay có dây thả xuống."
+    },
+    {
+      "value": 10,
+      "vietnamese": "Mười",
+      "emoji": "⭐",
+      "item": "Mười ngôi sao vàng",
+      "hint": "Số một đứng trước số không tạo thành số mười tròn trĩnh."
+    }
+  ],
+  "numberLevels": [
+    {
+      "id": 1,
+      "title": "Nhận biết số 0–5",
+      "description": "Làm quen với mặt số và cách đọc từ 0 đến 5",
+      "maxNumber": 5,
+      "type": "recognition"
+    },
+    {
+      "id": 2,
+      "title": "Nhận biết số 0–10",
+      "description": "Nhận diện trọn bộ các chữ số từ 0 đến 10",
+      "maxNumber": 10,
+      "type": "recognition"
+    },
+    {
+      "id": 3,
+      "title": "Đếm số lượng đồ vật",
+      "description": "Đếm trái cây, con thú sinh động và chọn đúng số",
+      "maxNumber": 10,
+      "type": "counting"
+    },
+    {
+      "id": 4,
+      "title": "So sánh lớn hơn, nhỏ hơn, bằng",
+      "description": "Tìm xem bên nào nhiều hơn, ít hơn hay bằng nhau",
+      "maxNumber": 10,
+      "type": "comparison"
+    },
+    {
+      "id": 5,
+      "title": "Làm quen phép cộng vui",
+      "description": "Cộng trực quan bằng các nhóm quả trái xinh xắn",
+      "maxNumber": 10,
+      "type": "addition"
+    },
+    {
+      "id": 6,
+      "title": "Làm quen phép trừ trực quan",
+      "description": "Bớt đồ vật xem còn lại mấy quả nào",
+      "maxNumber": 10,
+      "type": "subtraction"
+    }
+  ],
+  "learningZones": [
+    {
+      "id": "letters",
+      "title": "Vương quốc chữ cái",
+      "subtitle": "29 chữ cái tiếng Việt",
+      "icon": "BookOpen",
+      "bgColor": "from-amber-400 to-orange-500",
+      "borderColor": "border-amber-600",
+      "status": "active",
+      "description": "Học bảng chữ cái qua hình ảnh, giọng đọc chuẩn và 4 trò chơi hấp dẫn."
+    },
+    {
+      "id": "numbers",
+      "title": "Đảo số học",
+      "subtitle": "Đếm và làm toán 0–10",
+      "icon": "Binary",
+      "bgColor": "from-sky-400 to-blue-500",
+      "borderColor": "border-blue-600",
+      "status": "active",
+      "description": "Học số, tập đếm số lượng, so sánh lớn bé và cộng trừ hình ảnh sinh động."
+    },
+    {
+      "id": "forest",
+      "title": "Khu rừng khám phá",
+      "subtitle": "Động vật & Thiên nhiên",
+      "icon": "Trees",
+      "bgColor": "from-emerald-400 to-green-600",
+      "borderColor": "border-emerald-700",
+      "status": "active",
+      "description": "Khám phá các loài thú dễ thương, tiếng kêu và thế giới xung quanh bé."
+    },
+    {
+      "id": "shapes",
+      "title": "Thành phố hình khối",
+      "subtitle": "Màu sắc & Hình học",
+      "icon": "Shapes",
+      "bgColor": "from-purple-400 to-indigo-500",
+      "borderColor": "border-purple-600",
+      "status": "active",
+      "description": "Nhận biết hình tròn, vuông, tam giác và phân loại màu sắc diệu kỳ."
+    },
+    {
+      "id": "brain",
+      "title": "Thử thách trí tuệ",
+      "subtitle": "Ghi nhớ & Tư duy",
+      "icon": "Sparkles",
+      "bgColor": "from-rose-400 to-pink-500",
+      "borderColor": "border-pink-600",
+      "status": "active",
+      "description": "Rèn luyện trí nhớ qua trò chơi lật thẻ bài và tìm hình khác biệt."
+    }
+  ],
+  "badges": [
+    {
+      "id": "first_letter",
+      "title": "Bước Đầu Khám Phá",
+      "description": "Học xong chữ cái đầu tiên",
+      "icon": "🌟",
+      "requiredStars": 1
+    },
+    {
+      "id": "letter_master_5",
+      "title": "Nhà Ngôn Ngữ Nhí",
+      "description": "Luyện thành thạo 5 chữ cái tiếng Việt",
+      "icon": "📖",
+      "requiredStars": 5
+    },
+    {
+      "id": "number_counter",
+      "title": "Bé Đếm Siêu Phàm",
+      "description": "Đạt 10 sao trong Đảo số học",
+      "icon": "🔢",
+      "requiredStars": 10
+    },
+    {
+      "id": "star_collector",
+      "title": "Kho Báu Sao Vàng",
+      "description": "Thu thập được 25 ngôi sao lấp lánh",
+      "icon": "👑",
+      "requiredStars": 25
+    },
+    {
+      "id": "daily_learner",
+      "title": "Bé Chăm Ngoan",
+      "description": "Chơi và học cùng Bunny hôm nay",
+      "icon": "🥕",
+      "requiredStars": 3
+    },
+    {
+      "id": "grand_champion",
+      "title": "Bé Vui Học Vô Địch",
+      "description": "Đạt 50 sao thành tích xuất sắc",
+      "icon": "🏆",
+      "requiredStars": 50
+    }
+  ],
+  "natureAnimals": [
+    {
+      "name": "Chú Thỏ",
+      "soundName": "Thỏ con nhảy nhót",
+      "emoji": "🐰",
+      "sound": "boing",
+      "desc": "Ăn cà rốt giòn ngọt, đôi tai dài thật xinh!"
+    },
+    {
+      "name": "Chú Chó",
+      "soundName": "Gâu gâu",
+      "emoji": "🐶",
+      "sound": "gau-gau",
+      "desc": "Người bạn trung thành luôn vẫy đuôi mừng bé!"
+    },
+    {
+      "name": "Bé Mèo",
+      "soundName": "Meo meo",
+      "emoji": "🐱",
+      "sound": "meo-meo",
+      "desc": "Bộ lông mềm mịn thích được vuốt ve."
+    },
+    {
+      "name": "Chú Vịt",
+      "soundName": "Cạp cạp",
+      "emoji": "🦆",
+      "sound": "cap-cap",
+      "desc": "Bơi lội dưới hồ nước trong veo."
+    },
+    {
+      "name": "Chú Gà Trống",
+      "soundName": "Ò ó o o",
+      "emoji": "🐓",
+      "sound": "o-o-o",
+      "desc": "Đứng gáy trên bờ rào báo trời sáng."
+    },
+    {
+      "name": "Chú Khỉ",
+      "soundName": "Khẹc khẹc",
+      "emoji": "🐵",
+      "sound": "khec-khec",
+      "desc": "Leo trèo thoăn thoắt và thích ăn chuối tiêu."
+    }
+  ],
+  "shapesList": [
+    {
+      "name": "Hình Tròn",
+      "vietnamese": "Hình tròn",
+      "emoji": "🔴",
+      "example": "Quả bóng, ông mặt trời, bánh xe"
+    },
+    {
+      "name": "Hình Vuông",
+      "vietnamese": "Hình vuông",
+      "emoji": "🟦",
+      "example": "Hộp quà, viên gạch hoa, khung ảnh"
+    },
+    {
+      "name": "Hình Tam Giác",
+      "vietnamese": "Hình tam giác",
+      "emoji": "🔺",
+      "example": "Miếng dưa hấu, mái nhà, biển báo"
+    },
+    {
+      "name": "Hình Chữ Nhật",
+      "vietnamese": "Hình chữ nhật",
+      "emoji": "🟩",
+      "example": "Cánh cửa sổ, quyển vở, màn hình tivi"
+    },
+    {
+      "name": "Hình Ngôi Sao",
+      "vietnamese": "Hình ngôi sao",
+      "emoji": "⭐",
+      "example": "Ngôi sao trên trời, đèn ông sao trung thu"
+    },
+    {
+      "name": "Hình Trái Tim",
+      "vietnamese": "Hình trái tim",
+      "emoji": "💖",
+      "example": "Tình yêu thương của ba mẹ dành cho bé"
+    }
+  ]
+}

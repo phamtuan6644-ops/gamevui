@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5E62" />
+      <stop offset="50%" stop-color="#FF9966" />
+      <stop offset="100%" stop-color="#FFD166" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#b45309" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Bunny Face Emblem -->
+  <g transform="translate(15, 10)">
+    <!-- Ears -->
+    <ellipse cx="28" cy="20" rx="10" ry="24" fill="#FFFFFF" stroke="#F472B6" stroke-width="3" transform="rotate(-12 28 20)" />
+    <ellipse cx="28" cy="20" rx="5" ry="16" fill="#FBCFE8" transform="rotate(-12 28 20)" />
+    <ellipse cx="58" cy="18" rx="10" ry="24" fill="#FFFFFF" stroke="#F472B6" stroke-width="3" transform="rotate(12 58 18)" />
+    <ellipse cx="58" cy="18" rx="5" ry="16" fill="#FBCFE8" transform="rotate(12 58 18)" />
+    <!-- Head -->
+    <circle cx="42" cy="56" r="34" fill="#FFFFFF" stroke="#F43F5E" stroke-width="3" />
+    <!-- Cheeks -->
+    <circle cx="22" cy="62" r="7" fill="#FDA4AF" opacity="0.8" />
+    <circle cx="62" cy="62" r="7" fill="#FDA4AF" opacity="0.8" />
+    <!-- Eyes -->
+    <circle cx="32" cy="50" r="4.5" fill="#1E293B" />
+    <circle cx="33.5" cy="48.5" r="1.5" fill="#FFFFFF" />
+    <circle cx="52" cy="50" r="4.5" fill="#1E293B" />
+    <circle cx="53.5" cy="48.5" r="1.5" fill="#FFFFFF" />
+    <!-- Nose & Smile -->
+    <polygon points="42,58 38,54 46,54" fill="#F43F5E" />
+    <path d="M 37 62 Q 42 67 47 62" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
+    <!-- Cute carrot badge -->
+    <text x="56" y="86" font-size="22">🥕</text>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(110, 68)" filter="url(#shadow)">
+    <text font-family="'Baloo 2', 'Fredoka', cursive, sans-serif" font-weight="800" font-size="44" fill="#F97316" stroke="#FFFFFF" stroke-width="6" paint-order="stroke fill">BÉ VUI HỌC</text>
+    <text font-family="'Baloo 2', 'Fredoka', cursive, sans-serif" font-weight="800" font-size="44" fill="url(#gradLogo)">BÉ VUI HỌC</text>
+  </g>
+
+  <!-- Star accents -->
+  <g transform="translate(350, 22)">
+    <polygon points="12,0 15,9 24,9 17,14 20,23 12,18 4,23 7,14 0,9 9,9" fill="#FBBF24" stroke="#D97706" stroke-width="1.5" />
+  </g>
+  <g transform="translate(112, 18) scale(0.65)">
+    <polygon points="12,0 15,9 24,9 17,14 20,23 12,18 4,23 7,14 0,9 9,9" fill="#38BDF8" stroke="#0284C7" stroke-width="1.5" />
+  </g>
+
+  <!-- Subtitle -->
+  <text x="120" y="98" font-family="'Quicksand', sans-serif" font-weight="700" font-size="14" fill="#0D9488" letter-spacing="0.5">
+    KHÁM PHÁ MỖI NGÀY - GIỎI HƠN MỖI NGÀY
+  </text>
+</svg>
